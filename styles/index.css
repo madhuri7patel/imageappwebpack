@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    width: 98%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    padding: 10px; 
+    margin: auto; 
+    background-color: blue;
+
+}
+.options{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#container{
+    width: 90%;    
+    margin: auto;
+      
+}
+#container>div{
+    display: flex;
+    gap: 20px;
+    line-height: 30px;
+    margin-top: 25px;
+}
+#container>div>div{    
+    width: 45%;
+    
+}
+#container>div>div>img{
+    width: 100%;
+}
+
